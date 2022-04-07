@@ -3,13 +3,14 @@
 	color: map-get($colores,blanco);
 }
 
-
 @mixin boton{
+	text-decoration: none;
+	color: white;
 	border-color: 1px solid map-get($colores,oscuro);
 	background-color: map-get($colores,local);
-	margin-top:.5rem;
-	padding: 0.25rem;
-	border-radius: 20px;
+	margin-top:0.5rem;
+	padding: 0.5rem;
+	border-radius: 15px;
 }
 // mapa size
  $size:( 
@@ -19,11 +20,12 @@
  	texto:18px,
 	);
 
+
+// clases font size
  @each $titulo,$px in $size{
  	.size-#{$titulo}{
  		font-size: $px;
  	}
 
  }
-
 

@@ -11,7 +11,7 @@
 	.titulo-px{
 		font-size: 2rem;
 		font-weight: 700;
-		}
+	}
 	
 	.iframe{
 		width: 100%;
@@ -39,7 +39,7 @@
 
 /*VISTA DESKTOP*/
 @media only screen and (min-width: 1024px){
-	.titulo_menu{
+	.titulo_height{
 		height: 750px;
 		.titulo_color{
 	    	padding: 20rem 5rem 5rem 5rem;
@@ -68,6 +68,7 @@
 	 		padding: 3rem;
 	 	}
 	 }
+
 }
 
 

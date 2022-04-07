@@ -15,14 +15,12 @@
 
 .login{
 	height: 760px;
-
 }
-
+// fondo nosotros
 .titulo_nosotros{
-	@extend .titulo-px;
-	color: map-get($colores,blanco);
-	text-transform: uppercase;
-	position: absolute;
-	top:-415px;
-	left:80px;
+	background-image: url(../assets/image/fondotrabajo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
 }

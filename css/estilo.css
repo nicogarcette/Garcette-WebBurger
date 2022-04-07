@@ -43,11 +43,11 @@
   height: 760px; }
 
 .titulo_nosotros {
-  color: whitesmoke;
-  text-transform: uppercase;
-  position: absolute;
-  top: -415px;
-  left: 80px; }
+  background-image: url(../assets/image/fondotrabajo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative; }
 
 /*menu*/
 .menu {
@@ -81,13 +81,16 @@
         box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.2);
         transform: scale(1.1); }
       .menu .m-b .card .boton {
+        text-decoration: none;
+        color: white;
         border-color: 1px solid #0F0E0E;
         background-color: #173DFF;
-        margin-top: .5rem;
-        padding: 0.25rem;
-        border-radius: 20px; }
+        margin-top: 0.5rem;
+        padding: 0.5rem;
+        border-radius: 15px;
+        transition: 0.3s all linear; }
         .menu .m-b .card .boton:hover {
-          color: black; }
+          opacity: 0.7; }
 
 /*VISTA MOVILE*/
 @media only screen and (max-width: 768px) {
@@ -96,7 +99,7 @@
     display: none; }
   .titulo_color {
     padding: 5rem 7rem 4rem 1rem; }
-  .titulo-px, .titulo_nosotros, .body .contenedor .main .titulo_sucursal {
+  .titulo-px, .body .contenedor .main .titulo_sucursal {
     font-size: 2rem;
     font-weight: 700; }
   .iframe {
@@ -116,11 +119,11 @@
 
 /*VISTA DESKTOP*/
 @media only screen and (min-width: 1024px) {
-  .titulo_menu {
+  .titulo_height {
     height: 750px; }
-    .titulo_menu .titulo_color {
+    .titulo_height .titulo_color {
       padding: 20rem 5rem 5rem 5rem; }
-  .titulo-px, .titulo_nosotros, .body .contenedor .main .titulo_sucursal {
+  .titulo-px, .body .contenedor .main .titulo_sucursal {
     font-size: 4rem;
     font-weight: 700; }
   .iframe {
