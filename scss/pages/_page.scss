@@ -1,0 +1,28 @@
+/*fondos*/
+.bg-oscuro{
+	background-color: map-get($colores,oscuro);
+}
+
+.bg-claro{
+	background-color: map-get($colores,blanco);
+}
+
+
+.text{
+	text-align:justify ;
+}
+
+
+.login{
+	height: 760px;
+
+}
+
+.titulo_nosotros{
+	@extend .titulo-px;
+	color: map-get($colores,blanco);
+	text-transform: uppercase;
+	position: absolute;
+	top:-415px;
+	left:80px;
+}

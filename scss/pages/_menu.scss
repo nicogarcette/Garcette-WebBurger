@@ -1,0 +1,48 @@
+/*menu*/
+.menu{
+	background-color: map-get($colores,blanco);
+	.titulo_menu{
+		background-image: url(../assets/image/es.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		position: relative;
+	}
+	.menu_sub{
+		background-color:map-get($colores,local);
+		padding: 1rem;
+	}
+	.m-b{
+		display: flex;
+		justify-content:center;
+		padding: 2rem;
+		h2	{
+			color:map-get($colores,oscuro);
+		}
+		.bebida{
+			width: 150px;
+		}
+		.card{
+			width: 250px;
+			height:270px;
+			cursor: pointer;
+			border-radius: 20px;
+			background-color: white;
+			margin: 2rem 0px;
+			transition: 0.3s all ease;
+			&:hover{
+				box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, .2) ;
+				transform: scale(1.1);
+			}
+			.boton{
+				@include boton;
+				&:hover{
+					color: black;
+				}
+			}
+		}
+	}
+}
+
+
+

@@ -1,0 +1,29 @@
+*{
+	font-family: 'Montserrat', sans-serif;
+	color: map-get($colores,blanco);
+}
+
+
+@mixin boton{
+	border-color: 1px solid map-get($colores,oscuro);
+	background-color: map-get($colores,local);
+	margin-top:.5rem;
+	padding: 0.25rem;
+	border-radius: 20px;
+}
+// mapa size
+ $size:( 
+ 	uno:48px,
+ 	dos:40px,
+ 	tres:32px,
+ 	texto:18px,
+	);
+
+ @each $titulo,$px in $size{
+ 	.size-#{$titulo}{
+ 		font-size: $px;
+ 	}
+
+ }
+
+
