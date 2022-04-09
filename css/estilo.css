@@ -49,6 +49,19 @@
   background-size: cover;
   position: relative; }
 
+.inicio .boton {
+  text-decoration: none;
+  color: white;
+  border-color: 1px solid #0F0E0E;
+  background-color: #173DFF;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 15px;
+  transition: 0.3s all ease; }
+  .inicio .boton:hover {
+    transform: scale(1.02);
+    opacity: 0.7; }
+
 /*menu*/
 .menu {
   background-color: whitesmoke; }
@@ -75,10 +88,9 @@
       cursor: pointer;
       border-radius: 20px;
       background-color: white;
-      margin: 2rem 0px;
       transition: 0.3s all ease; }
       .menu .m-b .card:hover {
-        box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.2);
+        box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
         transform: scale(1.1); }
       .menu .m-b .card .boton {
         text-decoration: none;
@@ -88,8 +100,9 @@
         margin-top: 0.5rem;
         padding: 0.5rem;
         border-radius: 15px;
-        transition: 0.3s all linear; }
+        transition: 0.3s all ease; }
         .menu .m-b .card .boton:hover {
+          transform: scale(1.02);
           opacity: 0.7; }
 
 /*VISTA MOVILE*/

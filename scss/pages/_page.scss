@@ -7,7 +7,6 @@
 	background-color: map-get($colores,blanco);
 }
 
-
 .text{
 	text-align:justify ;
 }
@@ -24,3 +23,15 @@
 	background-size: cover;
 	position: relative;
 }
+// boton inicio
+.inicio{
+	.boton{
+		@include boton;
+		transition: 0.3s all ease;
+		&:hover{
+			transform:scale(1.02);
+			opacity: 0.7;
+		}
+	}
+}
+	
